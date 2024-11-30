@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Pycharm ide files 
+.idea
+
+# pytest cache
+.pytest_cache
+
+
+

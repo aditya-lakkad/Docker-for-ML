@@ -1,0 +1,13 @@
+include *.txt
+include *.md
+include LICENSE
+include *.py
+include data/models/regression_model.pkl
+include data/processed_data/encoded_data.csv
+include data/raw/gym_members_exercise_tracking.csv
+include data/test/test.csv
+include data/train/train.csv
+
+recursive-include ./Calories_Predictor/*
+
+recursive-exclude *__pycache__
